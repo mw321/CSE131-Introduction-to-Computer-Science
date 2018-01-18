@@ -1,0 +1,105 @@
+-------------------
+CSE247 Robot tester starts testing lab8 on 2017-11-23 14:21:00 -0600
+
+========
+Testing in ./GradingRepos/./cse131-f17-students-bingluzhu: lab8 as of 2017-11-14 20:00
+========
+Now in: /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-bingluzhu
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at b3484a2 robograde
+No local changes to save
+
+Updating b3484a2..0910425
+Fast-forward
+ RoboGrade/lab8-TermTest.txt | 23 ++++++++++++++---------
+ 1 file changed, 14 insertions(+), 9 deletions(-)
+Going back in time to: 2017-11-14 20:00
+At hash f55a1dc4e5b63518b23ae44e74de8f2369206e2e
+
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+copytest:
+     [echo] would copy from /Users/roncytron/git2/cse131-f17-students key bingluzhu testfilesource SparsePolynomialTest package lab8 repo ./GradingRepos/./cse131-f17-students-bingluzhu
+     [copy] Copying 1 file to /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-bingluzhu/labs/lab8
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+compile:
+     [echo] Compiling lab8/Term
+    [mkdir] Created dir: /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-bingluzhu/bin
+    [javac] Compiling 1 source file to /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-bingluzhu/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+compile:
+     [echo] Compiling lab8/SparsePolynomial
+    [javac] Compiling 1 source file to /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-bingluzhu/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+compile:
+     [echo] Compiling lab8/SparsePolynomialTest
+    [javac] Compiling 1 source file to /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-bingluzhu/bin
+    [javac] Note: /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-bingluzhu/labs/lab8/SparsePolynomialTest.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Running test SparsePolynomialTest
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+test:
+    [junit] Running lab8.SparsePolynomialTest
+    [junit] Testsuite: lab8.SparsePolynomialTest
+    [junit] p2 is SparsePolynomial [s=[Term [-2.0x ^ 2], Term [7.0x ^ 0], Term [5.0x ^ 3], Term [5.0x ^ 1]]]
+    [junit] p2's derivative is SparsePolynomial [s=[Term [15.0x ^ 2], Term [-4.0x ^ 1], Term [5.0x ^ 0]]]
+    [junit] Newly constructed poly is SparsePolynomial [s=[]]
+    [junit] Showing toString() for a missing term: SparsePolynomial [s=[Term [1.0x ^ 2], Term [131.0x ^ 0]]]
+    [junit] Showing toString() for summed poly SparsePolynomial [s=[Term [4.0x ^ 1], Term [1.0x ^ 2], Term [131.0x ^ 0], Term [3.0x ^ 3]]]
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+    [junit] Output:
+    [junit] p2 is SparsePolynomial [s=[Term [-2.0x ^ 2], Term [7.0x ^ 0], Term [5.0x ^ 3], Term [5.0x ^ 1]]]
+    [junit] p2's derivative is SparsePolynomial [s=[Term [15.0x ^ 2], Term [-4.0x ^ 1], Term [5.0x ^ 0]]]
+    [junit] Newly constructed poly is SparsePolynomial [s=[]]
+    [junit] Showing toString() for a missing term: SparsePolynomial [s=[Term [1.0x ^ 2], Term [131.0x ^ 0]]]
+    [junit] Showing toString() for summed poly SparsePolynomial [s=[Term [4.0x ^ 1], Term [1.0x ^ 2], Term [131.0x ^ 0], Term [3.0x ^ 3]]]
+    [junit] 
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] p2 is SparsePolynomial [s=[Term [-2.0x ^ 2], Term [7.0x ^ 0], Term [5.0x ^ 3], Term [5.0x ^ 1]]]
+    [junit] p2's derivative is SparsePolynomial [s=[Term [15.0x ^ 2], Term [-4.0x ^ 1], Term [5.0x ^ 0]]]
+    [junit] Newly constructed poly is SparsePolynomial [s=[]]
+    [junit] Showing toString() for a missing term: SparsePolynomial [s=[Term [1.0x ^ 2], Term [131.0x ^ 0]]]
+    [junit] Showing toString() for summed poly SparsePolynomial [s=[Term [4.0x ^ 1], Term [1.0x ^ 2], Term [131.0x ^ 0], Term [3.0x ^ 3]]]
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: testToArray took 0.002 sec
+    [junit] Testcase: testSum took 0 sec
+    [junit] Testcase: testDeriv took 0 sec
+    [junit] Testcase: testEval1 took 0.002 sec
+    [junit] Testcase: testEval2 took 0.001 sec
+    [junit] Testcase: testPrint took 0 sec
+    [junit] Testcase: testZeros took 0 sec
+    [junit] Testcase: testInit took 0 sec
+    [junit] Testcase: testOneMissingTerm took 0 sec
+    [junit] Testcase: testLikeTheresNoTomorrow took 0.007 sec
+    [junit] Testcase: testNoMutateAddTerm took 0.001 sec
+    [junit] Testcase: testOnlyOneInstanceVar took 0.001 sec
+    [junit] Testcase: testDegree took 0.016 sec
+    [junit] Testcase: testNoMutateSum took 0 sec
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing lab8 on 2017-11-23 14:21:06 -0600
+-------------------

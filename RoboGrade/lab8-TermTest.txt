@@ -1,0 +1,70 @@
+-------------------
+CSE247 Robot tester starts testing lab8 on 2017-11-23 14:20:49 -0600
+
+========
+Testing in ./GradingRepos/./cse131-f17-students-bingluzhu: lab8 as of 2017-11-14 20:00
+========
+Now in: /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-bingluzhu
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+HEAD is now at c2953a3 robograde
+No local changes to save
+
+Updating c2953a3..b3484a2
+Fast-forward
+ RoboGrade/lab8-SparsePolynomialTest.txt | 106 ++++++++++++++++++++++++++++++++
+ 1 file changed, 106 insertions(+)
+ create mode 100644 RoboGrade/lab8-SparsePolynomialTest.txt
+Going back in time to: 2017-11-14 20:00
+At hash f55a1dc4e5b63518b23ae44e74de8f2369206e2e
+
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+copytest:
+     [echo] would copy from /Users/roncytron/git2/cse131-f17-students key bingluzhu testfilesource TermTest package lab8 repo ./GradingRepos/./cse131-f17-students-bingluzhu
+     [copy] Copying 1 file to /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-bingluzhu/labs/lab8
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+compile:
+     [echo] Compiling lab8/Term
+    [mkdir] Created dir: /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-bingluzhu/bin
+    [javac] Compiling 1 source file to /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-bingluzhu/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+compile:
+     [echo] Compiling lab8/TermTest
+    [javac] Compiling 1 source file to /Users/roncytron/Desktop/131f17/cse247-support/GradingRepos/cse131-f17-students-bingluzhu/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Running test TermTest
+Buildfile: /Users/roncytron/Desktop/131f17/cse247-support/build.xml
+
+test:
+    [junit] Running lab8.TermTest
+    [junit] Testsuite: lab8.TermTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+    [junit] 
+    [junit] Testcase: testHashCodeAndEquals took 0.002 sec
+    [junit] Testcase: testInit took 0 sec
+    [junit] Testcase: testToString took 0.002 sec
+    [junit] Testcase: testGetters took 0 sec
+    [junit] Testcase: testDifferentTermsNotEqual took 0 sec
+    [junit] Testcase: testEvaluate took 0.003 sec
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing lab8 on 2017-11-23 14:20:53 -0600
+-------------------
